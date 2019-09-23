@@ -3,8 +3,8 @@ import Dropzone from 'react-dropzone';
 import request from 'superagent';
 import './App.css';
 
-const CLOUDINARY_UPLOAD_PRESET = 'bmzjbxoq';
-const CLOUDINARY_UPLOAD_URL = 'https://api.cloudinary.com/v1_1/react-cloudinary/upload';
+const CLOUDINARY_UPLOAD_PRESET = 'printerdirect';
+const CLOUDINARY_UPLOAD_URL = 'https://api.cloudinary.com/v1_1/printerdirect/upload';
 
 export default class App extends React.Component {
   constructor(props) {
